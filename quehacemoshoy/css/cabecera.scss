@@ -1,0 +1,43 @@
+.marcoCabecera {
+	width: 100%;
+	background-color: #c10b0b;
+
+	.contenedorLogo {
+		width: 200px;
+		padding: 5px 0;
+		display: inline-flex;
+
+		img {
+			width: 180px;
+			height: 100%;
+		}
+	}
+
+	.contenedorBuscador {
+		width: calc(100% - 350px);
+		display: inline-flex;
+		padding-top: 5px;
+		padding: 15px 0 0 0;
+
+		input {
+			width: calc(100% - 50px);
+			height: 30px;
+		}
+	}
+
+	.contenedorAcciones {
+		width: 100px;
+		display: inline-flex;
+		text-align: center;
+
+		.accionBoton {
+			display: inline-block;
+			padding: 0 15px 0 15px;	
+
+			&:hover {
+				color: silver;
+				cursor: pointer;
+			}
+		}
+	}
+}
